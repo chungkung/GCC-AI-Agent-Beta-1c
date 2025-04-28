@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.pyc
+
+# 环境
+.env
+*.env
+
+# 模型和大文件
+model/
+uploads/
+chat_history/
+*.bin
+*.safetensors
+
+# 数据
+data/split/train.txt
+data/split/val.txt
+
+# 其他
+.DS_Store
+*.log
